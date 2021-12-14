@@ -20,11 +20,11 @@ void setup(){                                     //
      Serial.print(tds.getKp()     ,2);            //   Выводим коэффициент пересчёта от 0,01 до 2,55.
      Serial.print("\r\nT    = "     );            //
      Serial.print(tds.get_T()     ,2);            //   Выводим опорную температуру жидкости от 0,00 до 63,75 °С.
-     Serial.print("°С.\r\nRd   = "  );            //
-     Serial.print(tds.getRd()     ,3);            //   Выводим общее сопротивление датчика от 0,000 до 16'777,215 Ом.
-     Serial.print("Ом.\r\nKd   = "  );            //
-     Serial.print(tds.getKd()     ,3);            //   Выводим постоянную датчика от 0,000 до 65,535 см^-1.
-     Serial.print("см^-1.\r\n"      );            //
+     Serial.print("°С.\r\nKa   = "  );            //
+     Serial.print(tds.getKa()     ,2);            //   Выводим множитель степеной функции от 0,01 до 167'772.15.
+     Serial.print(".\r\nKb   = "    );            //
+     Serial.print(tds.getKb()     ,3);            //   Выводим степень степенной функции от -0,010 до -65.535.
+     Serial.print(".\r\n"           );            //
 }                                                 //
                                                   //
 void loop(){}                                     //
