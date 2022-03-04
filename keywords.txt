@@ -15,6 +15,7 @@
 	setPullI2C	KEYWORD2
 	getFrequency	KEYWORD2
 	setFrequency	KEYWORD2
+	getCalibration	KEYWORD2
 	setCalibration	KEYWORD2
 	getKnownTDS	KEYWORD2
 	setKnownTDS	KEYWORD2
