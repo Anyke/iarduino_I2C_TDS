@@ -1,5 +1,5 @@
 //	Библиотека для работы с Trema модулем TDS/EC-метр, I2C-flash для Arduino: https://iarduino.ru/shop/Sensory-Datchiki/solemer-tds-ec-flash-i2c.html
-//  Версия: 1.2.0
+//  Версия: 1.2.2
 //  Последнюю версию библиотеки Вы можете скачать по ссылке: https://iarduino.ru/file/556.html
 //  Подробное описание функций бибилиотеки доступно по ссылке: https://wiki.iarduino.ru/page/TDS-EC-i2c/
 //  Библиотека является собственностью интернет магазина iarduino.ru и может свободно использоваться и распространяться!
@@ -53,6 +53,7 @@
 #define			TDS_FLG_STATUS_1		0x40																	//	Флаг  регистра REG_TDS_CALIBRATION информирует о выполнении 1 стадии калибровки.
 #define			TDS_BIT_CALC_2			0x02																	//	Бит   регистра REG_TDS_CALIBRATION указывает модулю выполнить 2 стадию калибровки.
 #define			TDS_BIT_CALC_1			0x01																	//	Бит   регистра REG_TDS_CALIBRATION указывает модулю выполнить 1 стадию калибровки.
+#define			TDS_CODE_CALC_SAVE		0x24																	//	Код   разрешения записи калибровочных данных.
 																												//
 class iarduino_I2C_TDS{																							//
 	public:																										//
