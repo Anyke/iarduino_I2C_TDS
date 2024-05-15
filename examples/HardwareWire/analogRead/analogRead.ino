@@ -1,5 +1,9 @@
 // ПРИМЕР ПОЛУЧЕНИЯ АНАЛОГОВЫХ ДАННЫХ:            // * Строки со звёздочкой являются необязательными.
                                                   //
+// TDS/EC-метр с щупом (Trema-модуль) Flash-I2C:  //   https://iarduino.ru/shop/Sensory-Datchiki/bamper-s-9-datchikami-liniy-s-shagom-7mm-flash-i2c.html
+// Информация о подключении модулей к шине I2C:   //   https://wiki.iarduino.ru/page/i2c_connection/
+// Информация о модуле и описание библиотеки:     //   https://wiki.iarduino.ru/page/TDS-EC-i2c/
+                                                  //
 const uint8_t pin_Vm = A0;                        //   Определяем вывод к которому подключён аналоговый выход модуля.
                                                   //
 const float   Vcc    = 5.0f;                      //   Напряжение питания Arduino.
