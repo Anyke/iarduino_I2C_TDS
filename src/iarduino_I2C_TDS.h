@@ -1,5 +1,5 @@
 //	Библиотека для работы с Trema модулем TDS/EC-метр, I2C-flash для Arduino: https://iarduino.ru/shop/Sensory-Datchiki/solemer-tds-ec-flash-i2c.html
-//  Версия: 1.3.1
+//  Версия: 1.3.2
 //  Последнюю версию библиотеки Вы можете скачать по ссылке: https://iarduino.ru/file/556.html
 //  Подробное описание функций бибилиотеки доступно по ссылке: https://wiki.iarduino.ru/page/TDS-EC-i2c/
 //  Библиотека является собственностью интернет магазина iarduino.ru и может свободно использоваться и распространяться!
